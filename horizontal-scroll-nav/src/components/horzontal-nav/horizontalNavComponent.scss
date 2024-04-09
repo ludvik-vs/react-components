@@ -1,0 +1,60 @@
+.horizontalNavFrame{
+    position: relative;
+    height: 280px;
+    width: 690px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+    border: 0.25px solid #333;
+    border-radius: 15px;
+}
+
+.cardsContainer{
+    padding: 15px 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    opacity: 1;
+    transform: translateY(-50%) translateX(-50%);
+    transition: all 0.1s ease;
+}
+
+.card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 0.25px solid #EEE;
+    border-radius: 8px;
+    height: 220px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1);
+    transition: all 0.4s ease;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: all 0.4s ease-in;
+    }
+    
+}
+
+.goEffect{
+    opacity: 0;
+    transform: translateY(-50%) translateX(-60%);
+    transition: all 0.8s ease-out;
+}
+
+.backEffect{
+    opacity: 0;
+    transform: translateY(-50%) translateX(-40%);
+    transition: all 0.8s ease-out;
+}
+
