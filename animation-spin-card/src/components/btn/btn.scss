@@ -1,0 +1,38 @@
+.btn-container {
+    position: relative;
+    border: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prev-btn {
+    cursor: pointer;
+
+    svg {
+        fill: #647D8C;
+
+    }
+}
+
+.next-btn {
+    cursor: pointer;
+
+    svg {
+        fill: #647D8C;
+
+    }
+}
+
+.next_anim {
+    transition: all 3.5s;
+    transform: translateY(-15rem) translateX(50rem) rotatez(180deg);
+    opacity: 0;
+}
+
+.prev_anim {
+    transition: all 3.5s;
+    transform: translateY(-15rem) translateX(-50rem) rotatez(-180deg);
+    opacity: 0.5;
+}
