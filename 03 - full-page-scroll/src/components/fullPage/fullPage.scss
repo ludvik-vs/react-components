@@ -1,0 +1,26 @@
+.fullPage{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 5px;
+    
+    .fullPage-container{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            font-size: 165px;
+            font-weight: 900;
+            letter-spacing: 3px;
+        }
+    }
+}

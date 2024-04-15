@@ -1,0 +1,3 @@
+  - Crear componente y set los props (ref / id / key / bgColor / children)
+  - Crear una referencia useRef
+  - Actualizar lista refs
